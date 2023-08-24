@@ -2,4 +2,4 @@
 
 Spencer Jackson
 Mathmatics of Data Science 
-<img src:"https://www.sudeep.co/data-science/2018/02/09/Understanding-the-Data-Science-Lifecycle.html">
+<img src:"https://www.sudeep.co/images/post_images/2018-02-09-Understanding-the-Data-Science-Lifecycle/chart.png">
