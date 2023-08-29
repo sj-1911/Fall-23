@@ -8,3 +8,5 @@ Mathmatics of Data Science
 <h1>Data Deck Slides</h1>
 [Snake Hatch Deck](https://docs.google.com/presentation/d/1cK-nCep6wIEZRbR55LtWKM4svrW78qlnbe3Q9sOI_f8/edit?usp=sharing)
 
+<h1>Collab Notebooks</h1>
+
