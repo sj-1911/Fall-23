@@ -10,3 +10,8 @@ Mathmatics of Data Science
 
 <h1>Collab Notebooks</h1>
 
+<H2>Notes...</H2>
+
+<h3>"From Pixels to Perfection..."</h3>
+<p></p>
+
