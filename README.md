@@ -11,7 +11,11 @@ Mathmatics of Data Science
 <h1>Collab Notebooks</h1>
 
 <H2>Notes...</H2>
-
+ <ul>
+        <li><a href= "https://colab.research.google.com/drive/11u72a6OjgUphQh8Z6ga8G5UurEaWbhpM?usp=sharing>SJ Data Science 2023 Python HTML Filters.ipynb</a></li>
+        <li><a href="https://colab.research.google.com/drive/17Eudd7JMDq9vPmBk0KbKX8plnuoairks#scrollTo=uKsUVAPdQwmP">SJ Data Images Intro Load Slides.ipynb</a> </li>
+        <li>Third note</li>
+    </ul>
 <h3>"From Pixels to Perfection..."</h3>
 <
 <h2>Links</h2>
