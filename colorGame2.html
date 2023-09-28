@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .color-box {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            cursor: pointer;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Guessing Game</h1>
+    <p>Guess the color by its name:</p>
+    <p id="colorName"></p>
+    <div class="color-box" id="color1"></div>
+    <div class="color-box" id="color2"></div>
+    <div class="color-box" id="color3"></div>
+    <p>Score: <span id="score">0</span></p>
+    <p>Correct: <span id="correctCount">0</span></p>
+    <p>Wrong: <span id="wrongCount">0</span></p>
+    <p id="resultMessage"></p>
+
+    <script>
+        const colors = [
+            { name: "Red", shades: ["#FF5733", "#FF0000", "#CC0000"] },
+            { name: "Green", shades: ["#33FF57", "#00FF00", "#009900"] },
+            { name: "Blue", shades: ["#5733FF", "#0000FF", "#0000CC"] },
+            { name: "Yellow", shades: ["#FFFF33", "#FFD700", "#FFA500"] },
+            { name: "Purple", shades: ["#8A2BE2", "#9932CC", "#9400D3"] },
+            { name: "Cyan", shades: ["#00FFFF", "#00CED1", "#20B2AA"] },
+            { name: "Magenta", shades: ["#FF00FF", "#FF1493", "#C71585"] },
+            { name: "Orange", shades: ["#FFA500", "#FF8C00", "#FF4500"] },
+            { name: "Brown", shades: ["#8B4513", "#A0522D", "#D2691E"] },
+            { name: "Pink", shades: ["#FFC0CB", "#FF69B4", "#FF1493"] },
+            { name: "Lavender", shades: ["#E6E6FA", "#9370DB", "#6A5ACD"] },
+            { name: "Teal", shades: ["#008080", "#008B8B", "#00CED1"] },
+            { name: "Olive", shades: ["#808000", "#556B2F", "#6B8E23"] },
+            // Add more colors and shades here
+        ];
+
+        let score = 0;
+        let correctCount = 0;
+        let wrongCount = 0;
+
+        function updateScore() {
+            document.getElementById("score").textContent = score;
+            document.getElementById("correctCount").textContent = correctCount;
+            document.getElementById("wrongCount").textContent = wrongCount;
+        }
+
+        function resetGame() {
+            const randomColorIndex = Math.floor(Math.random() * colors.length);
+            const targetColor = colors[randomColorIndex];
+            document.getElementById("colorName").textContent = targetColor.name;
+            const shuffledColors = shuffleArray([...targetColor.shades]);
+            for (let i = 0; i < 3; i++) {
+                document.getElementById(`color${i + 1}`).style.backgroundColor = shuffledColors[i];
+                document.getElementById(`color${i + 1}`).onclick = function () {
+                    if (shuffledColors[i] === targetColor.shades[0]) {
+                        score++;
+                        correctCount++;
+                        document.getElementById("resultMessage").textContent = "Correct!";
+                    } else {
+                        wrongCount++;
+                        document.getElementById("resultMessage").textContent = "Incorrect!";
+                    }
+                    updateScore();
+                    resetGame();
+                };
+            }
+        }
+
+        // Shuffle array function
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        resetGame();
+    </script>
+</body>
+</html>
