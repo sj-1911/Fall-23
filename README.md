@@ -27,8 +27,8 @@ Mathmatics of Data Science
 
 <h2>GPT3.5 Projects</h2>
     <ul>
-        <li><a href = "colorGame2">Color Guesser Game</a> </li>
-        <li>Coin Flip</li>
+        <li><a href = "colorGame2">Color Game</a> </li>
+        <li><a href = "counFlip.html">Coin Flip</a></li>
         <li>Calendar</li>
         <li></li>
     </ul>
