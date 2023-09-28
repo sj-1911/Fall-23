@@ -27,6 +27,6 @@ Mathmatics of Data Science
 
 <h2>Projects</h2>
     <ul>
-        <li><a "colorGame2">Color Guesser Game</a> </li>
+        <li><a href = "colorGame2">Color Guesser Game</a> </li>
         <li>Third note</li>
     </ul>
