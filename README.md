@@ -25,3 +25,8 @@ Mathmatics of Data Science
         <li>Third note</li>
     </ul>
 
+<h2>Projects</h2>
+    <ul>
+        <li><a href="https://setosa.io/ev/image-kernels/#:~:text=An%20image%20kernel%20is%20a,important%20portions%20of%20an%20image" target="_blank">Color Guesser Game</a> </li>
+        <li>Third note</li>
+    </ul>
