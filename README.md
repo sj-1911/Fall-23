@@ -21,12 +21,12 @@ Mathmatics of Data Science
 <h2>Links</h2>
     <ul>
         <li>First note</li>
-        <li><a href="Colorgame2" target="_blank">Kernels Explained Visually</a> </li>
+        <li><a href="href="https://setosa.io/ev/image-kernels/#:~:text=An%20image%20kernel%20is%20a,important%20portions%20of%20an%20image" target="_blank">Kernels Explained Visually</a> </li>
         <li>Third note</li>
     </ul>
 
 <h2>Projects</h2>
     <ul>
-        <li><a href="https://setosa.io/ev/image-kernels/#:~:text=An%20image%20kernel%20is%20a,important%20portions%20of%20an%20image" target="_blank">Color Guesser Game</a> </li>
+        <li><a "colorGame2">Color Guesser Game</a> </li>
         <li>Third note</li>
     </ul>
