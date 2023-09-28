@@ -13,5 +13,11 @@ Mathmatics of Data Science
 <H2>Notes...</H2>
 
 <h3>"From Pixels to Perfection..."</h3>
-<p></p>
+<
+<h2>Links</h2>
+    <ul>
+        <li>First note</li>
+        <li><a href="https://setosa.io/ev/image-kernels/#:~:text=An%20image%20kernel%20is%20a,important%20portions%20of%20an%20image" target="_blank">Kernels Explained Visually</a> </li>
+        <li>Third note</li>
+    </ul>
 
