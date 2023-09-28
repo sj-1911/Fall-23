@@ -25,8 +25,10 @@ Mathmatics of Data Science
         <li>Third note</li>
     </ul>
 
-<h2>Projects</h2>
+<h2>GPT3.5 Projects</h2>
     <ul>
         <li><a href = "colorGame2">Color Guesser Game</a> </li>
-        <li>Third note</li>
+        <li>Coin Flip</li>
+        <li>Calendar</li>
+        <li></li>
     </ul>
