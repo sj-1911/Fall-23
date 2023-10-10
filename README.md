@@ -6,7 +6,9 @@ Mathmatics of Data Science
 <img src="https://www.sudeep.co/images/post_images/2018-02-09-Understanding-the-Data-Science-Lifecycle/chart.png" width="150" height="150">
 
 <h1>Data Deck Slides</h1>
-[Snake Hatch Deck]<a href="https://docs.google.com/presentation/d/1cK-nCep6wIEZRbR55LtWKM4svrW78qlnbe3Q9sOI_f8/edit?usp=sharing">SJ Data Science 2023 Python HTML Filters.ipynb</a>
+<a href="https://docs.google.com/presentation/d/1cK-nCep6wIEZRbR55LtWKM4svrW78qlnbe3Q9sOI_f8/edit?usp=sharing">DataDeckFilters.ipynb</a>
+<h2> Alexnet Image Processor</h2>
+<a href="https://colab.research.google.com/drive/1nd8QTT87vUcg_B-q9PAD8EjtM8ufjYTV?usp=sharing">AlexsImageProcessor.ipynb</a>
 
 <h1>Collab Notebooks</h1>
 
@@ -14,7 +16,8 @@ Mathmatics of Data Science
  <ul>
         <li><a href="https://colab.research.google.com/drive/11u72a6OjgUphQh8Z6ga8G5UurEaWbhpM?usp=sharing">SJ Data Science 2023 Python HTML Filters.ipynb</a></li>
         <li><a href="https://colab.research.google.com/drive/17Eudd7JMDq9vPmBk0KbKX8plnuoairks#scrollTo=uKsUVAPdQwmP">SJ Data Images Intro Load Slides.ipynb</a> </li>
-        <li>Third note</li>
+        <li><a href ="https://colab.research.google.com/drive/1f8jFWOILF5akkSuPDOXP6PdKUJSRXFQZ?usp=sharing">ImageConvolution.ipynb</a></li>
+        <li></li>
     </ul>
 <h3>"From Pixels to Perfection..."</h3>
 <
