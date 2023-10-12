@@ -19,8 +19,8 @@ display(Image(url=image_url))
 
 """# Add image from URL"""
 
-desired_width = 300
-desired_height = 200
+desired_width = 224
+desired_height = 224
 
 # Fetch the image from the URL
 response = requests.get(image_url)
