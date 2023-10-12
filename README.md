@@ -28,10 +28,14 @@ Mathmatics of Data Science
         <li><a href="href="https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.05727&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false" target="_blank"> Neural Network Playground</a></li>
     </ul>
 
+ <h2> Class Assignments</h2>
+   <ul>
+      <li><a href = "https://colab.research.google.com/drive/1-nhFjoeWPh8sGsqHMGWoixN6R6jzMhG4?usp=sharing" target = "_blank">SpencerJ Webcam</a></li>
+</li>
+   </ul>
 <h2>GPT3.5 Projects</h2>
     <ul>
         <li><a href = "colorGame2">Color Game</a> </li>
         <li><a href = "counFlip.html">Coin Flip</a></li>
         <li>Calendar</li>
-        <li><a href = "https://colab.research.google.com/drive/1-nhFjoeWPh8sGsqHMGWoixN6R6jzMhG4?usp=sharing" target = "_blank">SpencerJ Webcam</a></li>
     </ul>
